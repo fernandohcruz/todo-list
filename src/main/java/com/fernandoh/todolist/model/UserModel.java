@@ -1,10 +1,6 @@
 package com.fernandoh.todolist.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity(name = "tb_users")
 public class UserModel {
